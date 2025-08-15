@@ -1,4 +1,5 @@
 import React from 'react';
+import { Toaster } from 'react-hot-toast';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Layout from './components/Layout';
 import Home from './pages/Home';
@@ -33,8 +34,16 @@ import VisaRequirementsEn from './pages/en/VisaRequirementsEn';
 import AboutConferenceEn from './pages/en/AboutConferenceEn';
 import PlaceholderPageEn from './pages/en/PlaceholderPageEn';
 
+// Admin components
+import AdminAuth from './components/admin/AdminAuth';
+import AdminLayout from './components/admin/AdminLayout';
+import AdminDashboard from './components/admin/AdminDashboard';
+import ScientificCommitteeAdmin from './components/admin/ScientificCommitteeAdmin';
+import ScientificCommitteeForm from './components/admin/ScientificCommitteeForm';
+
 function App() {
   return (
+    <>
     <Router>
       <Routes>
         {/* Arabic Routes */}
@@ -102,8 +111,22 @@ function App() {
           
           <Route path="contact" element={<ContactEn />} />
         </Route>
+        
+        {/* Admin Routes */}
+        <Route path="/admin" element={<AdminAuth><AdminLayout /></AdminAuth>}>
+          <Route index element={<AdminDashboard />} />
+          <Route path="scientific-committee" element={<ScientificCommitteeAdmin />} />
+          <Route path="scientific-committee/new" element={<ScientificCommitteeForm />} />
+          <Route path="scientific-committee/:id/edit" element={<ScientificCommitteeForm />} />
+          {/* Add more admin routes here as needed */}
+        </Route>
       </Routes>
     </Router>
+    <Toaster 
+      position="top-right"
+      toastOptions={{ duration: 4000 }}
+    />
+    </>
   );
 }
 
