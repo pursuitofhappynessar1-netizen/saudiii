@@ -1,7 +1,7 @@
 import React from 'react';
 import { Calendar, MapPin, Users, Award, Globe, Stethoscope } from 'lucide-react';
 
-const AboutConference = () => {
+const AboutScientific = () => {
   return (
     <div className="py-24 bg-gradient-to-br from-gray-50 to-white min-h-screen">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
