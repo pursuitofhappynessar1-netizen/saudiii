@@ -22,7 +22,6 @@ import LayoutEn from './components/en/LayoutEn';
 import HomeEn from './pages/en/HomeEn';
 import AboutEn from './pages/en/AboutEn';
 import AboutAssociationEn from './pages/en/AboutAssociationEn';
-import AboutScientificCommittee from './pages/en/AboutScientificCommittee';
 import ConferenceEn from './pages/en/ConferenceEn';
 import ConferenceProgramEn from './pages/en/ConferenceProgramEn';
 import ConferenceSpeakersEn from './pages/en/ConferenceSpeakersEn';
