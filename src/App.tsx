@@ -15,7 +15,7 @@ import AboutAssociation from './pages/AboutAssociation';
 import WhoShouldAttend from './pages/WhoShouldAttend';
 import Flights from './pages/Flights';
 import VisaRequirements from './pages/VisaRequirements';
-import AboutConference from './pages/AboutConference';
+import AboutConference from './pages/AboutScientificCommittee';
 
 // English components
 import LayoutEn from './components/en/LayoutEn';
