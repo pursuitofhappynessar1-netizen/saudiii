@@ -103,4 +103,4 @@ const AboutConference = () => {
   );
 };
 
-export default AboutConference;
+export default AboutScientific;
