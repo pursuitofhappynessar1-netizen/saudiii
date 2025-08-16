@@ -130,6 +130,11 @@ function App() {
           <Route path="coverage" element={<MediaCoverageAdmin />} />
           <Route path="coverage/new" element={<MediaCoverageForm />} />
           <Route path="coverage/:id/edit" element={<MediaCoverageForm />} />
+
+          <Route path="exhibition" element={<ExhibitionAdmin />} />
+          <Route path="exhibition/new" element={<ExhibitionForm />} />
+          <Route path="exhibition/:id/edit" element={<ExhibitionForm />} />
+          
         </Route>
       </Routes>
     </Router>
