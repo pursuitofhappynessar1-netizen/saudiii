@@ -40,6 +40,14 @@ import AdminLayout from './components/admin/AdminLayout';
 import AdminDashboard from './components/admin/AdminDashboard';
 import ScientificCommitteeAdmin from './components/admin/ScientificCommitteeAdmin';
 import ScientificCommitteeForm from './components/admin/ScientificCommitteeForm';
+import ScientificCommitteeForm from './components/admin/MediaCoverageAdmin';
+import ScientificCommitteeForm from './components/admin/MediaCoverageForm';
+import ScientificCommitteeForm from './components/admin/AccommodationAdmin';
+import ScientificCommitteeForm from './components/admin/AccommodationForm';
+import ScientificCommitteeForm from './components/admin/SpeakersAdmin';
+import ScientificCommitteeForm from './components/admin/SpeakersForm';
+import ScientificCommitteeForm from './components/admin/ExhibitionAdmin';
+import ScientificCommitteeForm from './components/admin/ExhibitionForm';
 
 function App() {
   return (
