@@ -12,7 +12,6 @@ import Contact from './pages/Contact';
 import ConferenceProgram from './pages/ConferenceProgram';
 import ConferenceSpeakers from './pages/ConferenceSpeakers';
 import AboutAssociation from './pages/AboutAssociation';
-import AboutScientific from './pages/AboutScientificCommittee';
 import WhoShouldAttend from './pages/WhoShouldAttend';
 import Flights from './pages/Flights';
 import VisaRequirements from './pages/VisaRequirements';
