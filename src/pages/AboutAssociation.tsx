@@ -8,7 +8,7 @@ const AboutAssociation = () => {
         <div className="text-center mb-16 animate-fade-in">
           <div className="mb-8">
             <img 
-              src="/Screenshot 2025-07-09 at 2.52.06 AM.png" 
+              src="/logo.png" 
               alt="جمعية السياحة العلاجية" 
               className="h-24 w-auto mx-auto mb-6 drop-shadow-lg"
             />
