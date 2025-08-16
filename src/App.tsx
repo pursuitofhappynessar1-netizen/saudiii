@@ -129,7 +129,7 @@ function App() {
           {/* Add more admin routes here as needed */}
           <Route path="coverage" element={<MediaCoverageAdmin />} />
           <Route path="coverage/new" element={<MediaCoverageForm />} />
-          <Route path="scientific-committee/:id/edit" element={<MediaCoverageForm />} />
+          <Route path="coverage/:id/edit" element={<MediaCoverageForm />} />
         </Route>
       </Routes>
     </Router>
