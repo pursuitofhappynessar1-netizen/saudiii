@@ -62,7 +62,7 @@ const AccommodationAdmin = () => {
           <p className="text-gray-600">Manage scientific committee members</p>
         </div>
         <Link
-          to="/admin/scientific-committee/new"
+          to="/admin/accommodationAdmin/new"
           className="bg-teal-600 hover:bg-teal-700 text-white px-4 py-2 rounded-lg flex items-center gap-2 transition-colors"
         >
           <Plus className="w-4 h-4" />
