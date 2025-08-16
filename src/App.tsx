@@ -7,7 +7,6 @@ import About from './pages/About';
 import Conference from './pages/Conference';
 import ConferenceRegister from './pages/ConferenceRegister';
 import BookSponsorship from './pages/BookSponsorship';
-import PlaceholderPage from './pages/PlaceholderPage';
 import Contact from './pages/Contact';
 import ConferenceProgram from './pages/ConferenceProgram';
 import ConferenceSpeakers from './pages/ConferenceSpeakers';
