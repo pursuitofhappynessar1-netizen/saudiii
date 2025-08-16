@@ -61,7 +61,7 @@ function App() {
           <Route path="about/taif" element={<PlaceholderPage title="عن الطائف" description="معلومات شاملة عن مدينة الطائف ومقوماتها السياحية والعلاجية" />} />
           <Route path="about/association" element={<AboutAssociation />} />
           <Route path="about/conference" element={<AboutConference />} />
-          <Route path="about/scientific-committee" element={<AboutScientific />} />
+          <Route path="about/scientific-committee" element={<AboutScientificCommittee />} />
           
           <Route path="conference" element={<Conference />} />
           <Route path="conference/register" element={<ConferenceRegister />} />
