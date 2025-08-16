@@ -94,7 +94,7 @@ function App() {
           <Route path="about/taif" element={<PlaceholderPageEn title="About Taif" description="Comprehensive information about Taif city and its tourism and medical capabilities" />} />
           <Route path="about/association" element={<AboutAssociationEn />} />
           <Route path="about/conference" element={<AboutConferenceEn />} />
-          <Route path="about/scientific-committee" element={<PlaceholderPageEn title="Scientific Committee" description="Conference scientific committee members and their expertise" />} />
+          <Route path="about/scientific-committee" element={<PlaceholderPageEn title="Scientific Committeee" description="Conference scientific committee members and their expertise" />} />
           
           <Route path="conference" element={<ConferenceEn />} />
           <Route path="conference/register" element={<ConferenceRegisterEn />} />
