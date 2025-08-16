@@ -139,9 +139,9 @@ function App() {
           <Route path="accommodation/new" element={<AccommodationForm />} />
           <Route path="accommodation/:id/edit" element={<AccommodationForm />} />
 
-          <Route path="accommodation" element={<AccommodationAdmin />} />
-          <Route path="accommodation/new" element={<AccommodationForm />} />
-          <Route path="accommodation/:id/edit" element={<AccommodationForm />} />
+          <Route path="speakers" element={<SpeakersAdmin />} />
+          <Route path="speakers/new" element={<SpeakersForm />} />
+          <Route path="speakers/:id/edit" element={<SpeakersForm />} />
           
         </Route>
       </Routes>
