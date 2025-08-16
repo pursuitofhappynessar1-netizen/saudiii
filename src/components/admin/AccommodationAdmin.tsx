@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Plus, Edit, Trash2, Image } from 'lucide-react';
-import { supabase, ScientificCommittee } from '../../lib/supabase';
+import { supabase, Accommodation } from '../../lib/supabase';
 import toast from 'react-hot-toast';
 
-const ScientificCommitteeAdmin = () => {
-  const [items, setItems] = useState<ScientificCommittee[]>([]);
+const AccommodationAdmin = () => {
+  const [items, setItems] = useState<Accommodation[]>([]);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
@@ -15,7 +15,7 @@ const ScientificCommitteeAdmin = () => {
   const fetchItems = async () => {
     try {
       const { data, error } = await supabase
-        .from('scientific_committee')
+        .from('accommodation')
         .select('*')
         .order('order_index', { ascending: true });
 
@@ -33,7 +33,7 @@ const ScientificCommitteeAdmin = () => {
 
     try {
       const { error } = await supabase
-        .from('scientific_committee')
+        .from('accommodation')
         .delete()
         .eq('id', id);
 
