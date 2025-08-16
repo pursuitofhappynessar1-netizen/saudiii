@@ -127,8 +127,6 @@ function App() {
           <Route path="scientific-committee/new" element={<ScientificCommitteeForm />} />
           <Route path="scientific-committee/:id/edit" element={<ScientificCommitteeForm />} />
           {/* Add more admin routes here as needed */}
-          <Route path="/admin" element={<AdminAuth><AdminLayout /></AdminAuth>}>
-          <Route index element={<AdminDashboard />} />
           <Route path="coverage" element={<MediaCoverageAdmin />} />
           <Route path="coverage/new" element={<MediaCoverageForm />} />
           <Route path="scientific-committee/:id/edit" element={<MediaCoverageForm />} />
