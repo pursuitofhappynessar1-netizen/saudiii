@@ -134,6 +134,10 @@ function App() {
           <Route path="exhibition" element={<ExhibitionAdmin />} />
           <Route path="exhibition/new" element={<ExhibitionForm />} />
           <Route path="exhibition/:id/edit" element={<ExhibitionForm />} />
+
+          <Route path="accommodation" element={<AccommodationAdmin />} />
+          <Route path="accommodation/new" element={<AccommodationForm />} />
+          <Route path="accommodation/:id/edit" element={<AccommodationForm />} />
           
         </Route>
       </Routes>
