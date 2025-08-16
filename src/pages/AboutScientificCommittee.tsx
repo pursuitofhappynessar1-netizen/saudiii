@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-import { supabase } from "../supabaseClient"; // عدل المسار حسب مشروعك
 
 export default function ScientificCommittee() {
   const [content, setContent] = useState<any[]>([]);
