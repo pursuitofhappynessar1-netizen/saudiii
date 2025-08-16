@@ -172,4 +172,4 @@ const ScientificCommitteeAdmin = () => {
   );
 };
 
-export default ScientificCommitteeAdmin;
+export default AccommodationAdmin;
